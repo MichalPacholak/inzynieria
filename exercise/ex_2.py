@@ -1,8 +1,9 @@
-# prostokat
-a = 10
-b = 20
+import math
 
-obwod = 2 * (a + b)
-pole = a * b
+# kolo
+r = 5
 
-print("Obwod prostokata wynosi " + str(obwod) + ", a pole wynosi " + str(pole) + ".")
+obwod = 2 * math.pi * r
+pole = math.pi * r**2
+
+print("Obwod kola wynosi " + str(obwod) + ", a pole wynosi " + str(pole) + ".")
