@@ -1,9 +1,8 @@
-# trapez
-a = 10
-b = 20
-h = 12
+# romb
+d1 = 10
+d2 = 15
 
-obwod = a + b + 2 * math.sqrt(((b - a) / 2)**2 + h**2)
-pole = ((a + b) * h) / 2
+obwod = 4 * math.sqrt((d1/2)**2 + (d2/2)**2)
+pole = (d1 * d2) / 2
 
-print("Obwod trapezu wynosi " + str(obwod) + ", a pole wynosi " + str(pole) + ".")
+print("Obwod rombu wynosi " + str(obwod) + ", a pole wynosi " + str(pole) + ".")
