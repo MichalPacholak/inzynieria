@@ -1,11 +1,8 @@
-# trojkat
-
+# prostokat
 a = 10
 b = 20
-c = 15
-h = 12
 
-obwod = a + b + c
-pole = int((h * a) / 2)
+obwod = 2 * (a + b)
+pole = a * b
 
-print("Obwod trojkata wynosi " + str(obwod) + ", zas pole wynisi " + str(pole) + ".")
+print("Obwod prostokata wynosi " + str(obwod) + ", a pole wynosi " + str(pole) + ".")
