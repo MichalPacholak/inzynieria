@@ -1,9 +1,9 @@
-import math
+# trapez
+a = 10
+b = 20
+h = 12
 
-# kolo
-r = 5
+obwod = a + b + 2 * math.sqrt(((b - a) / 2)**2 + h**2)
+pole = ((a + b) * h) / 2
 
-obwod = 2 * math.pi * r
-pole = math.pi * r**2
-
-print("Obwod kola wynosi " + str(obwod) + ", a pole wynosi " + str(pole) + ".")
+print("Obwod trapezu wynosi " + str(obwod) + ", a pole wynosi " + str(pole) + ".")
